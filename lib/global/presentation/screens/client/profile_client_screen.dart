@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 class ProfileClientScreen extends StatefulWidget {
   final String name;
 
-  const ProfileClientScreen({super.key, required this.name})
+  const ProfileClientScreen({super.key, required this.name});
 
   @override
   _ProfileClientScreenState createState() => _ProfileClientScreenState();
